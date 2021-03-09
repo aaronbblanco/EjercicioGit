@@ -11,6 +11,9 @@ def multiplicar(num1 , num2):
 def division(num1 , num2):
     return num1/num2
 
+def restar(num1,num2):
+    return num1-num2
+
 def calculadora(num1 , num2):
     if(funcion == 'sumar'):
         sumar(num1 , num2)
@@ -18,6 +21,8 @@ def calculadora(num1 , num2):
         division(num1 , num2)
     elif(funcion == 'multiplicar'):
         multiplicar(num1,num2)
+    elif(funcion == 'resta'):
+        restar(num1, num2)
     else:
         'error'
 
